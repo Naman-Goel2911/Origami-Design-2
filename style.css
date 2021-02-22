@@ -14,11 +14,21 @@ h1{
 
 .origamiDesign{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    padding: 30px;
+    margin: 25;
+    background-color: #FFFFFF;
+    font-size: 11px;
+    border: 2px solid #FFA500;
+    border-radius: 50px;
 }
 
 .grid{
-    /**display:flex;**/
+    display:flex;
     flex-wrap:wrap;
+    font-family: sans-serif;
+    border: 5px solid #000000;
+    border-radius: 50px;
 }
 
